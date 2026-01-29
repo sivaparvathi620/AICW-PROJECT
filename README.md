@@ -1,7 +1,7 @@
 # AICW-PROJECT
 
 # 🏥 MedAI: Multi-Disease Diagnostic System
-## MedAI is an advanced healthcare solution that uses Deep Learning and LLMs (Large Language Models) to analyze medical scans and provide clinical insights in both English and Telugu.
+## MedAI is an AI-powered healthcare diagnostic platform designed to provide fast, accessible, and easy-to-understand medical scan analysis. It combines the power of Computer Vision for disease detection and Generative AI (LLMs) for clinical reporting.
 
 ## 📝 Problem Statement
 ### Traditional medical diagnostic processes can be time-consuming, and patients often struggle to understand complex radiological reports. There is a need for a system that can:
@@ -15,7 +15,7 @@ Bilingual Support: Developed a system to provide reports in both English and Tel
 Voice Integration: Used gTTS to convert the Telugu analysis into speech for better accessibility.
 Data Management: Implemented SQLite for secure user authentication and historical record keeping.
 
-✨ Project Features
+## ✨ Project Features
 Multi-Disease Detection: Brain Tumor, Pneumonia, Retina, and Skin Cancer analysis.
 
 Detailed Clinical Reports: Professional insights using LLMs.
@@ -24,7 +24,7 @@ Bilingual Analysis: Native Telugu support for reports.
 
 Audio Report: Listen to the diagnostic report in Telugu.
 
-📂 Folder Structure
+## 📂 Folder Structure
 Real_Medical_AI/
 ├── models/               # Pre-trained .h5 files
 ├── static/
@@ -39,7 +39,7 @@ Patient History: Securely store and view previous analysis results.
 
 Secure Authentication: User login and registration system.
 
-📄 File Descriptions
+## 📄 File Descriptions
 app.py: The core engine handling routing, model inference, and API integrations.
 
 models/: Contains the deep learning models trained on medical datasets.
@@ -48,21 +48,17 @@ templates/: Jinja2 templates for the web front-end.
 
 users.db: SQLite database storing user credentials and patient history.
 
-🛠️ Steps to Run the Project
-1.Clone the Repository
-
+## 🛠️ Steps to Run the Project
+### 1.Clone the Repository
 git clone https://github.com/your-username/MedAI.git
 cd MedAI
 
-2.Install Dependencies
-
+### 2.Install Dependencies
 pip install -r requirements.txt
 
-3.Set Up API Key: Create a .env file and add your Groq API Key
-
+### 3.Set Up API Key: Create a .env file and add your Groq API Key
 GROQ_API_KEY=your_actual_api_key_here
 
-4.Run the Application
-
+### 4.Run the Application
 python app.py
 

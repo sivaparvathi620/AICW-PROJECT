@@ -22,6 +22,8 @@ Bilingual Analysis: Native Telugu support for reports.
 Audio Report: Listen to the diagnostic report in Telugu.
 
 ## 📂 Folder Structure
+
+
 Real_Medical_AI/
 ├── models/               # Pre-trained .h5 files
 ├── static/

@@ -1,26 +1,18 @@
 # AICW-PROJECT
 
-🏥 MedAI: Multi-Disease Diagnostic System
-MedAI is an advanced healthcare solution that uses Deep Learning and LLMs (Large Language Models) to analyze medical scans and provide clinical insights in both English and Telugu.
+# 🏥 MedAI: Multi-Disease Diagnostic System
+## MedAI is an advanced healthcare solution that uses Deep Learning and LLMs (Large Language Models) to analyze medical scans and provide clinical insights in both English and Telugu.
 
-📝 Problem Statement
-Traditional medical diagnostic processes can be time-consuming, and patients often struggle to understand complex radiological reports. There is a need for a system that can:
-
+## 📝 Problem Statement
+### Traditional medical diagnostic processes can be time-consuming, and patients often struggle to understand complex radiological reports. There is a need for a system that can:
 Provide instant preliminary analysis of medical images.
-
 Bridge the language barrier for non-English speaking patients (specifically Telugu).
-
 Offer an easy-to-use interface for maintaining patient history.
 
-🚀 Solution Approach
-Image Classification: Used Convolutional Neural Networks (CNNs) and Transfer Learning to classify Brain Tumors, Pneumonia, Retina diseases, and Skin Cancer.
-
-Clinical Analysis: Integrated Groq (Llama 3.3) to generate detailed medical reports based on AI predictions.
-
+## 🚀 Solution Approach
+Image Classification: Used Convolutional Neural Networks (CNNs) and Transfer Learning to classify Brain Tumors, Pneumonia, Retina diseases, and Skin Cancer.Clinical Analysis: Integrated Groq (Llama 3.3) to generate detailed medical reports based on AI predictions.
 Bilingual Support: Developed a system to provide reports in both English and Telugu.
-
 Voice Integration: Used gTTS to convert the Telugu analysis into speech for better accessibility.
-
 Data Management: Implemented SQLite for secure user authentication and historical record keeping.
 
 ✨ Project Features

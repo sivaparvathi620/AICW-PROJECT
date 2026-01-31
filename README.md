@@ -45,8 +45,8 @@ users.db: SQLite database storing user credentials and patient history.
 
 ## 🛠️ Steps to Run the Project
 1.Clone the Repository
-git clone https://github.com/your-username/MedAI.git
-cd MedAI
+git clone (https://github.com/sivaparvathi620/AICW-PROJECT.git)
+cd AuraScan
 
 2.Install Dependencies
 pip install -r requirements.txt
